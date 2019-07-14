@@ -1,0 +1,33 @@
+@media only screen and (max-width:1036px){
+    header h1{
+        font-size:0.5rem !important;
+    } 
+    .section{
+        padding : 2.5% 4.5%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    /* .article{
+        flex-direction: column;
+    } */
+
+    /* nav{
+        height: max-content;
+    } */
+    *{
+        flex-direction: column !important;
+    }
+
+    h2:after{
+        margin-left:33%;
+    }
+
+    .steps-parent{
+        flex-direction: column;
+    }
+
+    .steps-img {
+        margin-left:15%;
+    }
+}

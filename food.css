@@ -356,6 +356,7 @@ section{
   
   .signup-features ul {
     border-bottom: 2px solid#f4f4f4;
+    list-style: none;
     padding: 5%;
     color: #555;
   }
